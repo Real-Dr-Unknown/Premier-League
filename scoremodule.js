@@ -2,6 +2,7 @@ document.getElementById('flink').addEventListener('input', exexe);
 
 
 function exexe() {
+    dtfecher();
     console.log('Input changed:', document.getElementById('flink').value);
     updateConfig({ fotlink: document.getElementById('flink').value });
     mateeID = document.getElementById('flink').value;
