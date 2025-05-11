@@ -20,7 +20,7 @@ homeGGGG = document.getElementById("hhss");
 awayGGGG = document.getElementById("aass");
 
 function dtfecher() {
-    
+    console.log("executed");
     fetch(`https://noisy-frog-d056.chaudharyayush910.workers.dev/?matchid=${mateID}`)
         .then(response => {return response.json();})
         .then(data => {
