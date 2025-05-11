@@ -2,12 +2,12 @@ document.getElementById('flink').addEventListener('input', exexe);
 
 
 function exexe() {
-    dtfecher();
     console.log('Input changed:', document.getElementById('flink').value);
     updateConfig({ fotlink: document.getElementById('flink').value });
     mateeID = document.getElementById('flink').value;
     mateID = mateeID.split('#').pop();
     justtochangecolour = document.getElementById('jtcc');
+    dtfecher();
     setInterval(dtfecher, 60000);
 }
 if (document.getElementById('flink').value) {
